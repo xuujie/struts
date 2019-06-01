@@ -37,8 +37,11 @@
       <result name='failure'>/findUserForm.jsp</result>
     </action>
     <action name="listAllUsers" class="org.superbiz.struts.ListAllUsers">
-      <result>/displayUsers.jsp</result>
+      <result name="success">/displayUsers.jsp</result>
+      <result name="failure">/displayUsers.jsp</result>
     </action>
-
+    <action name="">
+      <result>/index.jsp</result>
+    </action>
   </package>
 </struts>
